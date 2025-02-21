@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicalInterface>
+  <P Name="NumRootInports">0</P>
+  <P Name="NumRootOutports">0</P>
+  <P Name="ParameterArgumentNames"/>
+  <P Name="NumModelReferences">0</P>
+  <P Name="NumTestPointedSignals">0</P>
+  <P Name="NumProvidedFunctions">0</P>
+  <P Name="NumRequiredFunctions">0</P>
+  <P Name="NumResetEvents">0</P>
+  <P Name="HasInitializeEvent">0</P>
+  <P Name="HasTerminateEvent">0</P>
+  <P Name="PreCompExecutionDomainType">Unset</P>
+  <P Name="IsExportFunctionModel">0</P>
+  <P Name="NumParameterArguments">0</P>
+  <P Name="NumExternalFileReferences">25</P>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/AC Voltage Source</P>
+    <P Name="Path">$bdroot/AC Voltage Source</P>
+    <P Name="SID">29</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/DC Voltage Source</P>
+    <P Name="Path">$bdroot/DC Voltage Source</P>
+    <P Name="SID">33</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Diode</P>
+    <P Name="Path">$bdroot/Diode</P>
+    <P Name="SID">11</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Diode</P>
+    <P Name="Path">$bdroot/Diode1</P>
+    <P Name="SID">12</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Diode</P>
+    <P Name="Path">$bdroot/Diode2</P>
+    <P Name="SID">13</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Diode</P>
+    <P Name="Path">$bdroot/Diode3</P>
+    <P Name="SID">14</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Diode</P>
+    <P Name="Path">$bdroot/Diode4</P>
+    <P Name="SID">15</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Diode</P>
+    <P Name="Path">$bdroot/Diode5</P>
+    <P Name="SID">16</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Ideal Switch</P>
+    <P Name="Path">$bdroot/Ideal Switch</P>
+    <P Name="SID">37</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Ideal Switch</P>
+    <P Name="Path">$bdroot/Ideal Switch1</P>
+    <P Name="SID">38</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Ideal Switch</P>
+    <P Name="Path">$bdroot/Ideal Switch2</P>
+    <P Name="SID">39</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Linear Transformer</P>
+    <P Name="Path">$bdroot/Linear Transformer</P>
+    <P Name="SID">34</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Mosfet</P>
+    <P Name="Path">$bdroot/Mosfet</P>
+    <P Name="SID">7</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Mosfet</P>
+    <P Name="Path">$bdroot/Mosfet1</P>
+    <P Name="SID">17</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Power
+Electronics/Mosfet</P>
+    <P Name="Path">$bdroot/Mosfet2</P>
+    <P Name="SID">18</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">re_lib/Solar/PV Array</P>
+    <P Name="Path">$bdroot/PV Array</P>
+    <P Name="SID">2</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch</P>
+    <P Name="SID">3</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch1</P>
+    <P Name="SID">40</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch2</P>
+    <P Name="SID">8</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch3</P>
+    <P Name="SID">19</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch4</P>
+    <P Name="SID">22</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch5</P>
+    <P Name="SID">24</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch6</P>
+    <P Name="SID">25</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch7</P>
+    <P Name="SID">42</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/powergui</P>
+    <P Name="Path">$bdroot/powergui</P>
+    <P Name="SID">41</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <P Name="OrderedModelArguments">1</P>
+</GraphicalInterface>
